@@ -1,0 +1,238 @@
+<IDOCTYPE html>
+
+    <html>
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width,
+    
+    initial-scale=1">
+
+        <title>Login page</title>
+
+        <link href="css/ekko-lightbox.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="contact" href="contect.html">
+    <link rel="login" href="login.html">
+    <link rel="home" href="index.html">
+    <link rel="contact" href="contect.html">
+    <link rel="login" href="login.html">
+    <link rel="Home" href="index.html">
+    <link rel="login" href="market.html">
+    <link rel="store" href="store.html">
+    <link rel="Team" href="team.html">
+
+        <!--google font-->
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@100;200;300;400;500;531;600;700;800;900&family=Lobster&family=Montserrat:wght@1,500;600;700&family=Oxygen:wght@300;400;700&family=Raleway:ital,wght@0,100;0,500;1,400;1,500&family=Roboto:ital,wght@0,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+        <!--google font-->
+
+    </head>
+
+    <body>
+       
+        
+
+         <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img class="img-responsive" src="farmer.jpg" alt="Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="store.html">Store</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="team.html">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="market.html">Market</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>        
+        </ul>
+      </div>  
+
+    </div>
+    <!-- /container -->
+   
+  </nav>
+  <!-- /Navbar -->
+        <!--form-->
+       <br><br><br><br><br>
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <title>Login or Sign Up</title>
+            <style>
+                /* Basic styling for the login form */
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    background-color: #f4f4f4;
+                }
+
+                .login-container {
+                    width: 300px;
+                    margin: 20px auto;
+                    padding: 20px;
+                    background-color: #fff;
+                    border-radius: 5px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                }
+
+                .login-container h2 {
+                    text-align: center;
+                }
+
+                .login-container input[type="text"],
+                .login-container input[type="password"],
+                .login-container input[type="email"],
+                .login-container input[type="submit"] {
+                    width: calc(100% - 20px);
+                    padding: 8px;
+                    margin-bottom: 15px;
+                    border: 1px solid #ccc;
+                    border-radius: 3px;
+                }
+
+                .login-container .form-switch {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 10px;
+                }
+
+                .login-container .form-switch button {
+                    width: 48%;
+                    padding: 10px;
+                    border: none;
+                    border-radius: 3px;
+                    cursor: pointer;
+                }
+
+                .login-container .form-switch button.active {
+                    background-color: #007bff;
+                    color: #fff;
+                }
+            </style>
+        </head>
+
+        <body>
+            <div class="login-container">
+                <h2>Login or Sign Up</h2>
+                <div class="form-switch">
+                    <button id="signin-btn" class="active">Sign In</button>
+                    <button id="signup-btn">Sign Up</button>
+                </div>
+                <form id="signin-form" action="your_login_script.php" method="post">
+                    <input type="text" name="username" placeholder="Username" required><br>
+                    <input type="password" name="password" placeholder="Password" required><br>
+                    <input type="submit" value="Login">
+                </form>
+                <form id="signup-form" action="your_signup_script.php" method="post" style="display: none;">
+                    <input type="text" name="fullname" placeholder="Full Name" required><br>
+                    <input type="email" name="email" placeholder="Email" required><br>
+                    <input type="text" name="newusername" placeholder="Username" required><br>
+                    <input type="password" name="newpassword" placeholder="Password" required><br>
+                    <input type="submit" value="Sign Up">
+                </form>
+            </div>
+
+            <script>
+                // JavaScript to switch between Sign In and Sign Up forms
+                document.getElementById('signin-btn').addEventListener('click', function () {
+                    document.getElementById('signin-form').style.display = 'block';
+                    document.getElementById('signup-form').style.display = 'none';
+                    this.classList.add('active');
+                    document.getElementById('signup-btn').classList.remove('active');
+                });
+
+                document.getElementById('signup-btn').addEventListener('click', function () {
+                    document.getElementById('signin-form').style.display = 'none';
+                    document.getElementById('signup-form').style.display = 'block';
+                    this.classList.add('active');
+                    document.getElementById('signin-btn').classList.remove('active');
+                });
+            </script>
+        </body>
+
+        </html>
+
+
+    </html>
+</html
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Website  Footer</title>
+    <style>
+        /* Basic styling for the footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Your website content here -->
+
+    <footer>
+        <p>&copy; farmers.com  . All rights reserved.</p>
+        <nav>
+            <a href="farmers.html">Home</a>
+   
+   <a href="login.html">Login</a>
+   <a href="cart.html">cart</a>
+   <a href="market.html">market</a>
+   
+   <a href="contact.html">Contact</a>
+   <a href="about.html">about</a>
+        </nav>
+        <p>Follow us on <a href="#">Twitter</a> and <a href="#">Facebook</a></p>
+    </footer>
+</body>
+
+</html>
